@@ -12,6 +12,21 @@ export default function Carousel() {
             border-radius: 100%;
             padding: 15px;
           }
+
+          /* Slim Search Bar */
+          .search-input {
+            height: 35px !important;
+            font-size: 14px;
+            padding: 5px 10px;
+            border-radius: 20px; /* rounded look */
+          }
+
+          .search-btn {
+            height: 35px !important;
+            font-size: 14px;
+            padding: 5px 15px;
+            border-radius: 20px;
+          }
         `}
       </style>
 
@@ -23,14 +38,14 @@ export default function Carousel() {
             className="carousel-caption d-flex justify-content-center"
             style={{ top: "10%", zIndex: "10" }}
           >
-            <form className="d-flex w-75">
+            <form className="d-flex w-50"> {/* reduced from w-75 to w-50 */}
               <input
-                className="form-control me-2"
+                className="form-control me-2 search-input"
                 type="search"
                 placeholder="Search for food..."
                 aria-label="Search"
               />
-              <button className="btn btn-outline-success" type="submit">
+              <button className="btn btn-primary search-btn" type="submit">
                 Search
               </button>
             </form>
@@ -101,3 +116,4 @@ export default function Carousel() {
     </>
   );
 }
+
