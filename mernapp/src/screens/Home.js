@@ -28,8 +28,18 @@ export default function Home() {
         <Carousel/>
       </div>
       {/* Card Section */}
-      <div>
-        <Card/>
+      <div className="container my-3">
+        <div className="row">
+          <div className="col-md-4">
+            <Card />
+          </div>
+          <div className="col-md-4">
+            <Card />
+          </div>
+          <div className="col-md-4">
+            <Card />
+          </div>
+        </div>
       </div>
 
       {/* Footer Section */}

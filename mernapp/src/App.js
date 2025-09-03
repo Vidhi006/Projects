@@ -14,7 +14,7 @@ import Login from './screens/Login';
 function App() {
   return (
     <Router>
-      <div> 
+      <div className="app-bg"> 
         <Routes>
           <Route exact path="/" element= {<Home/>} />
           <Route exact path="/login" element= {<Login/>} />

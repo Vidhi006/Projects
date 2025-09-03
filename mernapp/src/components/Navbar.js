@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link className="navbar-brand fs-1 fst-italic" to="/">Go Food</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
