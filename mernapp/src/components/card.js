@@ -19,7 +19,7 @@ export default function Card() {
 
           {/* Dropdown + Price Section */}
           <div className="d-flex justify-content-between align-items-center">
-            <select className="m-2 h-100 bg-primary rounded text-white">
+            <select className="m-2 h-100 bg-dark rounded text-white">
               {Array.from(Array(6), (e, i) => (
                 <option key={i + 1} value={i + 1}>
                   {i + 1}
@@ -27,7 +27,7 @@ export default function Card() {
               ))}
             </select>
 
-            <select className="m-2 h-100 bg-primary rounded text-white">
+            <select className="m-2 h-100 bg-dark rounded text-white">
               <option value="half">Half</option>
               <option value="full">Full</option>
             </select>
