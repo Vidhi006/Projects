@@ -1,5 +1,5 @@
 const mongoose = require ('mongoose')
-const mongoURI = 'mongodb+srv://vidhijoshi00098_db_user:Vidhi@12345@cluster0.pfvstrp.mongodb.net/'
+const mongoURI = 'mongodb+srv://vidhijoshi00098_db_user:Vidhi12345@cluster0.pfvstrp.mongodb.net/database'
 async function connectDB(){
     await mongoose.connect(mongoURI).then(()=>{
         console.log("MongoDB Connected Succesfully");
