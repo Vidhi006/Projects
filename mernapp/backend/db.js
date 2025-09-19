@@ -7,4 +7,4 @@ async function connectDB(){
         console.error("Attemp Failed: "+ err.message);
     })
 }
-module.exports = connectDB;
+module.exports = connectDB;  

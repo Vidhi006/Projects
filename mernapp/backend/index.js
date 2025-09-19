@@ -6,5 +6,5 @@ mongodb();
 app.get("/", (req, res) => {
         res.send("Hello World")
 	});
-
+app.use();        
 app.listen(PORT, () => console.log("Server running on port " + PORT));
